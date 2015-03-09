@@ -142,7 +142,7 @@ void Irrigar() {
        watered = true;
      } else {
        watered = false;
-       Serial.println("Moist OK");
+       Serial.println("On hold");
      }
    
 //   lcd.begin(16,2);       //declara o tipo de monitor (16 por 2)
