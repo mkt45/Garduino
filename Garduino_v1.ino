@@ -71,14 +71,15 @@ void Desligar(){
    }   
    
    
-void Irrigar() {      
-    if (moisture_val>260){
+void Irrigar() {
+// moisture sensor value taken off and replace by timer.  
+//    if (moisture_val>260){                       
       Ligar();
       Alarm.delay(10000);    
       Desligar();
-    } else {
-      Serial.print("Umidade OK");
-      Serial.println();
+//    } else {
+//      Serial.print("Umidade OK");
+//      Serial.println();
     } 
 }
 
